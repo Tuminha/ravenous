@@ -2,9 +2,11 @@
   "name": "ravenous",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://api.yelp.com",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
     "react-scripts": "5.0.1"
